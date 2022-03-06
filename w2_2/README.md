@@ -9,7 +9,7 @@
 https://www.oklink.com/zh-cn/oec-test/tx/0xbf55090b1af1553b25ee3206dec34b52fb71c1780c7f88c1660c02ed03e0a626
 
 
-部署合约Score的时候同时部署了Teacher合约
+部署合约Score的时候,同时部署了Teacher合约
 
 Score合约地址：0xC65cDe6Db74C063969E045D51510C7A475727c22
 
