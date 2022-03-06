@@ -12,6 +12,7 @@ https://www.oklink.com/zh-cn/oec-test/tx/0xbf55090b1af1553b25ee3206dec34b52fb71c
 部署合约Score的时候同时部署了Teacher合约
 
 Score合约地址：0xC65cDe6Db74C063969E045D51510C7A475727c22
+
 Teacher合约地址：0xEBf50C84307bC3B1a6f1266756859006892bfcF0
 
 **2. 修改学生分数**
