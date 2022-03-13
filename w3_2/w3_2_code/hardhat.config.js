@@ -16,6 +16,25 @@ task("accounts", "Prints the list of accounts", async (taskArgs, hre) => {
 /**
  * @type import('hardhat/config').HardhatUserConfig
  */
+
+const fs = require('fs');
+
+// const mnemonic = fs.readFileSync(".secret").toString().trim();
+
+// console.log(mnemonic)
 module.exports = {
   solidity: "0.8.4",
+  networks: {
+    development: {
+      url: "http://127.0.0.1:7545",
+      chainId: 1337
+    },
+    oectestnet: {
+      url: "https://exchaintestrpc.okex.org",
+      // accounts: [mnemonic],
+      accounts: ["XX"],
+      chainId: 65
+    }
+  }
 };
+

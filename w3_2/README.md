@@ -5,3 +5,12 @@
    * (或)使用 TheGraph 解析 ERC721 转账事件
 
 
+
+**1. 部署NFT**
+
+https://www.oklink.com/zh-cn/oec-test/address/0xe0deDD846B49e4BA2851F1BD2BBE568046774ecc
+
+
+**2. 创造NFT**
+
+https://www.oklink.com/zh-cn/oec-test/tx/0x7A08776025404E8EF2423FF0468308FE6986AA86F4C5A716A4503BDCB8DE84A5
