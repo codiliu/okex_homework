@@ -10,17 +10,19 @@
 
 
 
-**部署代币合约MyERC20**
+
+
+**1. 部署代币MyERC20合约**
 
 https://www.oklink.com/zh-cn/oec-test/address/0x6D7f77E3186B6F1245D0B20d216be15648996CEc
 
 
-**部署Vault合约**
+**2. 部署Vault合约**
 
 https://www.oklink.com/zh-cn/oec-test/address/0x33E50D7e2950178e5f70E113B0ce0b0975841eac
 
 
-**增发**
+**3. 增发**
 
 ![w3_1_1.png](w3_1.resources/w3_1_1.png)
 
@@ -28,13 +30,13 @@ https://www.oklink.com/zh-cn/oec-test/tx/0xa00cf9bb253ed60b2014ba64c53012623a715
 
 
 
-**转账**
+**4. 转账**
 ![w3_1_2.png](w3_1.resources/w3_1_2.png)
 
 https://www.oklink.com/zh-cn/oec-test/tx/0x73461203e9a7aae3e840f6195579925247d8162f1178e83e7a8cc0ae987b5cca
 
 
-**在合约Vault中调用deposite存入**
+**5. 在合约Vault中调用deposite存入**
 
 ![w3_1_3.png](w3_1.resources/w3_1_3.png)
 
@@ -42,7 +44,7 @@ https://www.oklink.com/zh-cn/oec-test/tx/0x73461203e9a7aae3e840f6195579925247d81
 
 存入：https://www.oklink.com/zh-cn/oec-test/tx/0xb3ce631c8192c3498d7c8c1d72403d9cba35758b487cf6f3a3c32c7c235b6969
 
-**在合约Vault中调用withdraw提取**
+**6. 在合约Vault中调用withdraw提取**
 
 ![w3_1_4.png](w3_1.resources/w3_1_4.png)
 
