@@ -1,5 +1,5 @@
 require("@nomiclabs/hardhat-waffle");
-
+require('hardhat-abi-exporter');
 
 task("accounts", "Prints the list of accounts", async() => {
     const accounts = await ethers.getSigners();
@@ -11,9 +11,19 @@ task("accounts", "Prints the list of accounts", async() => {
 
 module.exports = {
     solidity: {
+        // 编译版本
         compilers: [
           {
-            version: "0.4.18",
+            version: "0.8.12",
+            settings: {
+              optimizer: {
+                enabled: true,
+                runs: 200
+              }
+            }
+          },
+          {
+            version: "0.4.26",
             settings: {
               optimizer: {
                 enabled: true,
@@ -35,35 +45,32 @@ module.exports = {
             settings: {
               optimizer: {
                 enabled: true,
-                runs: 999999
-              }
-            }
-          },
-          {
-            version: "0.6.12",
-            settings: {
-              optimizer: {
-                enabled: true,
-                runs: 5000
+                runs: 200
               }
             }
           }
-        ],
+        ]
       },
+
+    abiExporter: {
+        path: './deployments/abi',
+        clear: true,
+        flat: true,
+        only: [],
+        spacing: 2,
+        pretty: true,
+    },
+
     networks: {
         dev: {
-          url: "http://127.0.0.1:7545",
-          chainId: 1337
+            url: "http://127.0.0.1:7545",
+            chainId: 1337
         },
         oectestnet: {
-          url: "https://exchaintestrpc.okex.org",
-          // accounts: [mnemonic],
-          accounts: ["719b918526b6df496b493512ddd90ea5b4e78ee8fe516d22d47c74a897d3a39e"],
-          chainId: 65
+            url: "https://exchaintestrpc.okex.org",
+            // accounts: [mnemonic],
+            accounts: [""],
+            chainId: 65
         }
     }
-    
 };
-
-
-
