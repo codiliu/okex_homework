@@ -15,14 +15,14 @@ https://rinkeby.etherscan.io/tx/0x36069d24a1afaca24c1dfdde9dad8043efe751da33780f
 https://rinkeby.etherscan.io/tx/0xfe0705e57f162a2580475b9661f6902a5c1eefec8492ea4c16f1a8889e481229
 
 
-**2. 在Uniswap v2上调价流动性**
+**2. 在Uniswap v2上添加流动性**
 
 https://rinkeby.etherscan.io/tx/0x24e5e462e41ba560db7b0ee22509f63500794ec8c329d2c3b8321717c8448839
 
 
 ![w5_1_1.png](w5_1.resources/w5_1_1.png)
 
-**3. 在Uniswap v3上调价流动性**
+**3. 在Uniswap v3上添加流动性**
 
 https://rinkeby.etherscan.io/tx/0x75e334e3685df2bdb7db14917950e1ba0cbf2dc461c7f4b71586ea15acce0bdd
 
