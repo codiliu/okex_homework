@@ -27,6 +27,6 @@ https://rinkeby.etherscan.io/tx/0x24e5e462e41ba560db7b0ee22509f63500794ec8c329d2
 https://rinkeby.etherscan.io/tx/0x75e334e3685df2bdb7db14917950e1ba0cbf2dc461c7f4b71586ea15acce0bdd
 
 
-![w5_1_3.png](w5_1.resources/w5_1_3.png)
+![w5_1_2.png](w5_1.resources/w5_1_2.png)
 
 
