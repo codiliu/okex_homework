@@ -58,7 +58,7 @@ module.exports = {
         oectestnet: {
           url: "https://exchaintestrpc.okex.org",
           // accounts: [mnemonic],
-          accounts: ["719b918526b6df496b493512ddd90ea5b4e78ee8fe516d22d47c74a897d3a39e"],
+          accounts: [],
           chainId: 65
         }
     }
